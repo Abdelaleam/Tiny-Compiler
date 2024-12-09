@@ -14,9 +14,9 @@ E:\Semster 5\Compiler Project\Tiny_Compiler\bin\Debug\JASON_Compiler.exe
 E:\Semster 5\Compiler Project\Tiny_Compiler\bin\Debug\JASON_Compiler.pdb
 E:\Semster 5\Compiler Project\Tiny_Compiler\obj\Debug\Tiny_Compiler.csproj.AssemblyReference.cache
 E:\Semster 5\Compiler Project\Tiny_Compiler\obj\Debug\Tiny_Compiler.Form1.resources
-E:\Semster 5\Compiler Project\Tiny_Compiler\obj\Debug\JASON_Compiler.Form2.resources
 E:\Semster 5\Compiler Project\Tiny_Compiler\obj\Debug\JASON_Compiler.Properties.Resources.resources
 E:\Semster 5\Compiler Project\Tiny_Compiler\obj\Debug\Tiny_Compiler.csproj.GenerateResource.cache
 E:\Semster 5\Compiler Project\Tiny_Compiler\obj\Debug\Tiny_Compiler.csproj.CoreCompileInputs.cache
 E:\Semster 5\Compiler Project\Tiny_Compiler\obj\Debug\JASON_Compiler.exe
 E:\Semster 5\Compiler Project\Tiny_Compiler\obj\Debug\JASON_Compiler.pdb
+E:\Semster 5\Compiler Project\Tiny_Compiler\obj\Debug\Tiny_Compiler.Form2.resources
