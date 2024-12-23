@@ -9,7 +9,7 @@ public enum Token_Class
 {
     Digit, Letter, Number, String, Identifier,
     //ReservedWords
-    INTEGER, FLOAT, STRING, READ, WRITE, REPEAT, UNTIL, IF, ELSEIF, ELSE, THEN, RETURN, ENDL, MAIN,
+    INTEGER, FLOAT, STRING, READ, WRITE, REPEAT, UNTIL, IF, ELSEIF, ELSE, THEN, RETURN, ENDL, MAIN,END,
     //COMMENT
     Comment,
     //Arth Op
@@ -60,6 +60,7 @@ namespace Tiny_Compiler
             ReservedWords.Add("return", Token_Class.RETURN);
             ReservedWords.Add("endl", Token_Class.ENDL);
             ReservedWords.Add("main", Token_Class.MAIN);
+            ReservedWords.Add("end", Token_Class.END);
 
             //Arth
             Operators.Add("+", Token_Class.PlusOp);
