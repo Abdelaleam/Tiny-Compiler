@@ -21,24 +21,26 @@ namespace Tiny_Compiler
         {
             textBox2.Clear();
             //string Code=textBox1.Text.ToLower();
+            dataGridView1.Rows.Clear();
+            Tiny_Compiler.TokenStream.Clear();
             string Code = textBox1.Text;
             Tiny_Compiler.Start_Compiling(Code);
             PrintTokens();
-         //   PrintLexemes();
-
+            //   PrintLexemes();
+            treeView1.Nodes.Add(Parser.PrintParseTree(Tiny_Compiler.treeroot));
             PrintErrors();
         }
         void PrintTokens()
         {
             for (int i = 0; i < Tiny_Compiler.Tiny_Scanner.Tokens.Count; i++)
             {
-               dataGridView1.Rows.Add(Tiny_Compiler.Tiny_Scanner.Tokens.ElementAt(i).lex, Tiny_Compiler.Tiny_Scanner.Tokens.ElementAt(i).token_type);
+                dataGridView1.Rows.Add(Tiny_Compiler.Tiny_Scanner.Tokens.ElementAt(i).lex, Tiny_Compiler.Tiny_Scanner.Tokens.ElementAt(i).token_type);
             }
         }
 
         void PrintErrors()
         {
-            for(int i=0; i<Errors.Error_List.Count; i++)
+            for (int i = 0; i < Errors.Error_List.Count; i++)
             {
                 textBox2.Text += Errors.Error_List[i];
                 textBox2.Text += "\r\n";
@@ -57,10 +59,28 @@ namespace Tiny_Compiler
         private void button2_Click(object sender, EventArgs e)
         {
             dataGridView1.Rows.Clear();
+            textBox2.Clear();
             Tiny_Compiler.TokenStream.Clear();
+            dataGridView1.Rows.Clear();
+            treeView1.Nodes.Clear();
+            Errors.Error_List.Clear();
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
         {
 
         }
