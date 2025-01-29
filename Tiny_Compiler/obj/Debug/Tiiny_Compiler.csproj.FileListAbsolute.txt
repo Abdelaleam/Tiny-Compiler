@@ -1,0 +1,11 @@
+D:\last\Tiny-Compiler\Tiny_Compiler\bin\Debug\JASON_Compiler.exe.config
+D:\last\Tiny-Compiler\Tiny_Compiler\bin\Debug\JASON_Compiler.exe
+D:\last\Tiny-Compiler\Tiny_Compiler\bin\Debug\JASON_Compiler.pdb
+D:\last\Tiny-Compiler\Tiny_Compiler\obj\Debug\Tiiny_Compiler.csproj.AssemblyReference.cache
+D:\last\Tiny-Compiler\Tiny_Compiler\obj\Debug\Tiny_Compiler.Form1.resources
+D:\last\Tiny-Compiler\Tiny_Compiler\obj\Debug\Tiny_Compiler.Form2.resources
+D:\last\Tiny-Compiler\Tiny_Compiler\obj\Debug\JASON_Compiler.Properties.Resources.resources
+D:\last\Tiny-Compiler\Tiny_Compiler\obj\Debug\Tiiny_Compiler.csproj.GenerateResource.cache
+D:\last\Tiny-Compiler\Tiny_Compiler\obj\Debug\Tiiny_Compiler.csproj.CoreCompileInputs.cache
+D:\last\Tiny-Compiler\Tiny_Compiler\obj\Debug\JASON_Compiler.exe
+D:\last\Tiny-Compiler\Tiny_Compiler\obj\Debug\JASON_Compiler.pdb

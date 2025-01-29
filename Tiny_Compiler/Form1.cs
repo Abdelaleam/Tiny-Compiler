@@ -27,7 +27,8 @@ namespace Tiny_Compiler
             Tiny_Compiler.Start_Compiling(Code);
             PrintTokens();
             //   PrintLexemes();
-            treeView1.Nodes.Add(Parser.PrintParseTree(Tiny_Compiler.treeroot));
+            
+            treeView2.Nodes.Add(Parser.PrintParseTree(Tiny_Compiler.treeroot));
             PrintErrors();
         }
         void PrintTokens()
@@ -62,8 +63,9 @@ namespace Tiny_Compiler
             textBox2.Clear();
             Tiny_Compiler.TokenStream.Clear();
             dataGridView1.Rows.Clear();
-            treeView1.Nodes.Clear();
+            treeView2.Nodes.Clear();
             Errors.Error_List.Clear();
+            //Tiny_Compiler.err = false;
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -81,6 +83,11 @@ namespace Tiny_Compiler
         }
 
         private void treeView1_AfterSelect(object sender, TreeViewEventArgs e)
+        {
+
+        }
+
+        private void treeView2_AfterSelect(object sender, TreeViewEventArgs e)
         {
 
         }

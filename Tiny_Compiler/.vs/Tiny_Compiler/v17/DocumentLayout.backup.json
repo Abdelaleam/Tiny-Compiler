@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Semster 5\\Compiler Project\\Tiny_Compiler\\",
+  "WorkspaceRootPath": "D:\\Abdelaleam\\New folder (3)\\Tiny-Compiler\\Tiny_Compiler\\Tiny_Compiler\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Semster 5\\Compiler Project\\Tiny_Compiler\\Scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Semster 5\\Compiler Project\\Tiny_Compiler\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Abdelaleam\\New folder (3)\\Tiny-Compiler\\Tiny_Compiler\\Tiny_Compiler\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Semster 5\\Compiler Project\\Tiny_Compiler\\Tiny_Compiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Abdelaleam\\New folder (3)\\Tiny-Compiler\\Tiny_Compiler\\Tiny_Compiler\\Scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Abdelaleam\\New folder (3)\\Tiny-Compiler\\Tiny_Compiler\\Tiny_Compiler\\Tiny_Compiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Tiny_Compiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,36 +30,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Scanner.cs",
-              "DocumentMoniker": "E:\\Semster 5\\Compiler Project\\Tiny_Compiler\\Scanner.cs",
+              "DocumentMoniker": "D:\\Abdelaleam\\New folder (3)\\Tiny-Compiler\\Tiny_Compiler\\Tiny_Compiler\\Scanner.cs",
               "RelativeDocumentMoniker": "Scanner.cs",
-              "ToolTip": "E:\\Semster 5\\Compiler Project\\Tiny_Compiler\\Scanner.cs",
+              "ToolTip": "D:\\Abdelaleam\\New folder (3)\\Tiny-Compiler\\Tiny_Compiler\\Tiny_Compiler\\Scanner.cs",
               "RelativeToolTip": "Scanner.cs",
-              "ViewState": "AgIAAHUBAAAAAAAAAAAowIEBAABTAAAAAAAAAA==",
+              "ViewState": "AgIAAHUBAAAAAAAAAAAowIIBAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-16T07:19:13.263Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-16T07:19:13.263Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Semster 5\\Compiler Project\\Tiny_Compiler\\Program.cs",
+              "DocumentMoniker": "D:\\Abdelaleam\\New folder (3)\\Tiny-Compiler\\Tiny_Compiler\\Tiny_Compiler\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\Semster 5\\Compiler Project\\Tiny_Compiler\\Program.cs",
+              "ToolTip": "D:\\Abdelaleam\\New folder (3)\\Tiny-Compiler\\Tiny_Compiler\\Tiny_Compiler\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T23:40:21.044Z"
+              "WhenOpened": "2024-11-15T23:40:21.044Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Tiny_Compiler.cs",
-              "DocumentMoniker": "E:\\Semster 5\\Compiler Project\\Tiny_Compiler\\Tiny_Compiler.cs",
+              "DocumentMoniker": "D:\\Abdelaleam\\New folder (3)\\Tiny-Compiler\\Tiny_Compiler\\Tiny_Compiler\\Tiny_Compiler.cs",
               "RelativeDocumentMoniker": "Tiny_Compiler.cs",
-              "ToolTip": "E:\\Semster 5\\Compiler Project\\Tiny_Compiler\\Tiny_Compiler.cs",
+              "ToolTip": "D:\\Abdelaleam\\New folder (3)\\Tiny-Compiler\\Tiny_Compiler\\Tiny_Compiler\\Tiny_Compiler.cs",
               "RelativeToolTip": "Tiny_Compiler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

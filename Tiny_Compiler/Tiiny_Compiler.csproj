@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{317C883A-1AD2-4BF5-8033-D7C695787623}</ProjectGuid>
+    <ProjectGuid>{3BD6AD59-F6B0-43D8-B5F2-C896A4D638F3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>JASON_Compiler</RootNamespace>
@@ -60,7 +60,7 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-	<Compile Include="Parser.cs" />
+    <Compile Include="Parser.cs" />
     <Compile Include="Tiny_Compiler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

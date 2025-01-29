@@ -1,36 +1,31 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Semster 5\\Compiler Project\\",
+  "WorkspaceRootPath": "D:\\last\\Tiny-Compiler\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|e:\\semster 5\\compiler project\\jason_compiler\\scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|solutionrelative:jason_compiler\\scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3BD6AD59-F6B0-43D8-B5F2-C896A4D638F3}|Tiny_Compiler\\Tiiny_Compiler.csproj|d:\\last\\tiny-compiler\\tiny_compiler\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3BD6AD59-F6B0-43D8-B5F2-C896A4D638F3}|Tiny_Compiler\\Tiiny_Compiler.csproj|solutionrelative:tiny_compiler\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|E:\\Semster 5\\Compiler Project\\jason_compiler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|solutionrelative:jason_compiler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Scanner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Tiny_Compiler||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\Tiny_Compiler.csproj|e:\\semster 5\\compiler project\\jason_compiler\\tiny_compiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\Tiny_Compiler.csproj|solutionrelative:jason_compiler\\tiny_compiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|e:\\semster 5\\compiler project\\jason_compiler\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|solutionrelative:jason_compiler\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Tiny_Compiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|e:\\semster 5\\compiler project\\jason_compiler\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|solutionrelative:jason_compiler\\errors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|e:\\semster 5\\compiler project\\jason_compiler\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|solutionrelative:jason_compiler\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|e:\\semster 5\\compiler project\\jason_compiler\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{317C883A-1AD2-4BF5-8033-D7C695787623}|JASON_Compiler\\JASON_Compiler.csproj|e:\\semster 5\\compiler project\\jason_compiler\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,100 +35,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Errors.cs",
-              "DocumentMoniker": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Errors.cs",
-              "RelativeDocumentMoniker": "JASON_Compiler\\Errors.cs",
-              "ToolTip": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Errors.cs",
-              "RelativeToolTip": "JASON_Compiler\\Errors.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "D:\\last\\Tiny-Compiler\\Tiny_Compiler\\Form1.cs",
+              "RelativeDocumentMoniker": "Tiny_Compiler\\Form1.cs",
+              "ToolTip": "D:\\last\\Tiny-Compiler\\Tiny_Compiler\\Form1.cs [Design]",
+              "RelativeToolTip": "Tiny_Compiler\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T13:43:21.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-29T21:15:19.485Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Tiny_Compiler.cs",
-              "DocumentMoniker": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Tiny_Compiler.cs",
-              "RelativeDocumentMoniker": "JASON_Compiler\\Tiny_Compiler.cs",
-              "ToolTip": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Tiny_Compiler.cs",
-              "RelativeToolTip": "JASON_Compiler\\Tiny_Compiler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Title": "Errors.cs",
+              "DocumentMoniker": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Errors.cs",
+              "ToolTip": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Errors.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T13:16:06.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T13:43:21.76Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Tiny_Compiler.cs",
+              "DocumentMoniker": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Tiny_Compiler.cs",
+              "ToolTip": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Tiny_Compiler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:16:06.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Form1.cs",
-              "RelativeDocumentMoniker": "JASON_Compiler\\Form1.cs",
               "ToolTip": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Form1.cs",
-              "RelativeToolTip": "JASON_Compiler\\Form1.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T13:08:43.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T13:08:43.644Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Form1.cs",
-              "RelativeDocumentMoniker": "JASON_Compiler\\Form1.cs",
               "ToolTip": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Form1.cs [Design]",
-              "RelativeToolTip": "JASON_Compiler\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T13:08:21.394Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-11-15T13:08:21.394Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Scanner.cs",
               "DocumentMoniker": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Scanner.cs",
-              "RelativeDocumentMoniker": "JASON_Compiler\\Scanner.cs",
               "ToolTip": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Scanner.cs",
-              "RelativeToolTip": "JASON_Compiler\\Scanner.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwEkAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T17:56:21.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T17:56:21.273Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Tiny_Compiler",
               "DocumentMoniker": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Tiny_Compiler.csproj",
-              "RelativeDocumentMoniker": "JASON_Compiler\\Tiny_Compiler.csproj",
               "ToolTip": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Tiny_Compiler.csproj",
-              "RelativeToolTip": "JASON_Compiler\\Tiny_Compiler.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-11-13T17:57:44.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T17:57:44.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Program.cs",
-              "RelativeDocumentMoniker": "JASON_Compiler\\Program.cs",
               "ToolTip": "E:\\Semster 5\\Compiler Project\\JASON_Compiler\\Program.cs",
-              "RelativeToolTip": "JASON_Compiler\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-13T17:54:59.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-13T17:54:59.782Z"
             }
           ]
         }

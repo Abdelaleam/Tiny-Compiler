@@ -38,12 +38,13 @@ namespace Tiny_Compiler
         public Token_Class token_type;
     }
 
+
     public class Scanner
     {
         public List<Token> Tokens = new List<Token>();
+   
         Dictionary<string, Token_Class> ReservedWords = new Dictionary<string, Token_Class>();
         Dictionary<string, Token_Class> Operators = new Dictionary<string, Token_Class>();
-
         public Scanner()
         {
             ReservedWords.Add("int", Token_Class.INTEGER);
@@ -104,40 +105,79 @@ namespace Tiny_Compiler
                 //single line
                 if (CurrentChar == '/' && j + 1 < SourceCode.Length && SourceCode[j + 1] == '/')
                 {
-                    j += 2; 
-                    CurrentLexeme = "//"; 
+                    j += 2;
+                    CurrentLexeme = "//";
                     while (j < SourceCode.Length && SourceCode[j] != '\n' && SourceCode[j] != '\r')
                     {
                         CurrentLexeme += SourceCode[j];
                         j++;
                     }
-                   
+
                     FindTokenClass(CurrentLexeme);
-                    i = j-1; 
+                    i = j - 1;
                     continue;
 
                 }
                 //multiline
-                if (CurrentChar == '/' && j + 1 < SourceCode.Length && SourceCode[j + 1] == '*')
+                //if (CurrentChar == '/' && j + 1 < SourceCode.Length && SourceCode[j + 1] == '*')
+                //{
+                //    j += 2;
+                //    CurrentLexeme = "/*"; 
+                //    while (j + 1 < SourceCode.Length && !(SourceCode[j] == '*' && SourceCode[j + 1] == '/'))
+                //    {
+                //        CurrentLexeme += SourceCode[j];
+                //        j++;
+                //    }
+                //    if (j + 1 < SourceCode.Length)
+                //    {
+                //        CurrentLexeme += "*/";
+                //        j++;
+                //    }
+                //    FindTokenClass(CurrentLexeme);
+                //    i = j; 
+                //    continue;
+                //}
+                else if (CurrentChar == '/') //Comment lexeme to disregard
                 {
-                    j += 2;
-                    CurrentLexeme = "/*"; 
-                    while (j + 1 < SourceCode.Length && !(SourceCode[j] == '*' && SourceCode[j + 1] == '/'))
+                    bool closed = false;
+                    j++;
+                    if (j < SourceCode.Length && SourceCode[j] == '*')
                     {
-                        CurrentLexeme += SourceCode[j];
+                        CurrentLexeme += SourceCode[j].ToString();
                         j++;
+                        try
+                        {
+                            while (j < SourceCode.Length)
+                            {
+                                CurrentLexeme += SourceCode[j].ToString();
+                                j++;
+                                if (SourceCode[j - 1] == '*' && SourceCode[j] == '/')
+                                {
+                                    CurrentLexeme += SourceCode[j].ToString();
+                                    closed = true;
+                                    i = j;
+                                    break;
+                                }
+                            }
+                        }
+                        catch (Exception)
+                        {
+                            Errors.Error_List.Add("Comment not closed");
+                            closed = true;
+                            i = j;
+                            continue;
+                        }
+                        if (!closed)
+                        {
+                            Errors.Error_List.Add("Comment not closed");
+                            i = j;
+                            continue;
+                        }
+
                     }
-                    if (j + 1 < SourceCode.Length)
-                    {
-                        CurrentLexeme += "*/";
-                        j++;
-                    }
-                    FindTokenClass(CurrentLexeme);
-                    i = j; 
-                    continue;
                 }
-                //identifier & reserved
-                if ((CurrentChar >= 'A' && CurrentChar <= 'Z') || (CurrentChar >= 'a' && CurrentChar <= 'z')) 
+                    //identifier & reserved
+                    if ((CurrentChar >= 'A' && CurrentChar <= 'Z') || (CurrentChar >= 'a' && CurrentChar <= 'z')) 
                 {
                     j++;
                     if (j < SourceCode.Length)
@@ -180,13 +220,13 @@ namespace Tiny_Compiler
                 //string
                 else if (CurrentChar == '\"')
                 {
-                    
+
                     j++;
                     CurrentChar = SourceCode[j];
                     CurrentLexeme += CurrentChar.ToString();
                     while (CurrentChar != '\"')
                     {
-                        
+
                         if (j == SourceCode.Length - 1)
                         {
                             break;
@@ -199,6 +239,7 @@ namespace Tiny_Compiler
 
                     i = j;
                 }
+
                 //&&
                 else if (CurrentChar == '&')
                 {
@@ -282,7 +323,7 @@ namespace Tiny_Compiler
                     FindTokenClass(CurrentLexeme);
                 }
             }
-
+          
             Tiny_Compiler.TokenStream = Tokens;
         }
         void FindTokenClass(string Lex)
@@ -312,12 +353,12 @@ namespace Tiny_Compiler
                 Tokens.Add(Tok);
             }
             //Is it a digit?
-            else if (isDigit(Lex))
-            {
-                TC = Token_Class.Digit;
-                Tok.token_type = TC;
-                Tokens.Add(Tok);
-            }
+            //else if (isDigit(Lex))
+            //{
+            //    TC = Token_Class.Digit;
+            //    Tok.token_type = TC;
+            //    Tokens.Add(Tok);
+            //}
             //Is it a Letter?
             else if (isLetter(Lex))
             {
@@ -345,21 +386,21 @@ namespace Tiny_Compiler
                 Tok.token_type = TC;
                 Tokens.Add(Tok);
             }
-           
+
             else
             {
                 Errors.Error_List.Add(Lex);
             }
         }
         //digit
-        bool isDigit(string lex)
-        {
-            bool isValid = true;
-            var p = new Regex("^[0-9]$");
-            if (!p.IsMatch(lex))
-                isValid = false;
-            return isValid;
-        }
+        //bool isDigit(string lex)
+        //{
+        //    bool isValid = true;
+        //    var p = new Regex("^[0-9]$");
+        //    if (!p.IsMatch(lex))
+        //        isValid = false;
+        //    return isValid;
+        //}
         //letter
         bool isLetter(string lex)
         {
@@ -384,7 +425,7 @@ namespace Tiny_Compiler
         {
             bool isValid = true;
            
-            var p = new Regex("^\"[a-zA-Z0-9!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~–\r\n ]+\"$");
+            var p = new Regex("^\"[a-zA-Z0-9!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~–`\r\n ]+\"$");
             if (!p.IsMatch(lex))
                 isValid = false;
             return isValid;
@@ -413,7 +454,7 @@ namespace Tiny_Compiler
         {
        
             bool isValid = true;
-            var P2 = new Regex(@"^/\*[a-zA-Z0-9!""#$%&'()*+,-./:;<=>?@[\]^_`{|}~–\r\n\t\s\f\v]*\*/$");
+            var P2 = new Regex(@"^/\*[a-zA-Z0-9!""#$%&'()*+,-./:;<=>?@[\]^_`{|}~–’\r\n\t\s\f\v]*\*/$");
             if (!P2.IsMatch(lex))
                 isValid = false;
             return isValid;
